@@ -14,6 +14,7 @@ Connect to the TurtleBot3 via SSH:
     ssh burger@<robot_ip_address>
 
 Replace `<robot_ip_address>` with the actual IP address of the robot.
+Alternatively we can also use "ssh burger@burger.local" to dynamically find the robot ip address.
 
 # Multi-Robot Simulation (Gazebo)
 

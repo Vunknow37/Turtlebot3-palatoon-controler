@@ -60,6 +60,13 @@ Run the straight-line motion with obstacle avoidance:
 
     ros2 run tb3_straight_avoid straight_avoid
 
+# Battery check
+
+check the battery 
+
+     ros2 topic echo /battery_state
+
+
 # Notes
 
 -   Ensure consistent namespaces across bringup, teleop, and

@@ -66,6 +66,13 @@ check the battery
 
      ros2 topic echo /battery_state
 
+# Obstical detect
+
+detect the obstical and stop
+
+     ros2 run tb3_obstacle_stop obstacle_stop_node --ros-args -p safe_distance:=0.7 -p detect_angle_deg:=90.0
+
+
 
 # Notes
 

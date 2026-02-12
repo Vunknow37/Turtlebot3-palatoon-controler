@@ -15,6 +15,14 @@ Connect to the TurtleBot3 via SSH:
 
 Replace `<robot_ip_address>` with the actual IP address of the robot.
 
+# Single RObot Simulation (Gazebo)
+
+Launch a TurtleBot3 robots in Gazebo:
+
+    export TURTLEBOT3_MODEL=burger 
+    ros2 launch turtlebot3_gazebo empty_world.launch.py
+
+
 # Multi-Robot Simulation (Gazebo)
 
 Launch multiple TurtleBot3 robots in Gazebo:

@@ -82,6 +82,9 @@ detect the obstical and stop
 
 
 
+ros2 run multirobotlaneswitch twobotgraph --ros-args -p num_bots:=3
+
+
 # Notes
 
 -   Ensure consistent namespaces across bringup, teleop, and

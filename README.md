@@ -47,8 +47,8 @@ Run the circle controller with configurable parameters:
 
     ros2 run tb3_circle_controller circle_controller \
       --ros-args \
-        -p namespace:=wafflepi1 \
-        -p radius:=1.5 \
+        -p namespace:=TB3_1 \
+        -p radius:=1.3 \
         -p linear_speed:=0.10 \
         -p direction:=ccw
 

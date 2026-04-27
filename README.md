@@ -84,7 +84,10 @@ detect the obstical and stop
 
 ros2 run multirobotlaneswitch twobotgraph --ros-args -p num_bots:=3
 
+# square 
+    ros2 run turtlebot3_example turtlebot3_patrol_server
 
+    ros2 run turtlebot3_example turtlebot3_patrol_client
 # Notes
 
 -   Ensure consistent namespaces across bringup, teleop, and
